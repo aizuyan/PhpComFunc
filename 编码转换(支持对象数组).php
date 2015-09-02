@@ -1,4 +1,4 @@
-```php
+<?php
 /**
  * 数据编码转换，从GBK到UTF-8
  * @param $data mixed 要转换的数据
@@ -43,4 +43,3 @@ public function U2G($data)
 
     return $data;
 }
-```
