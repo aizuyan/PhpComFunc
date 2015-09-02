@@ -4,7 +4,7 @@
  * @param $data mixed 要转换的数据
  * @return mixed 转换之后的数据
  */
-public function G2U($data)
+function G2U($data)
 {
     if(is_array($data) ||  is_object($data)){
         foreach ($data as $key=>&$value){
@@ -27,7 +27,7 @@ public function G2U($data)
 /**
  * 数据编码转化，总UTF-8到GBK
  */
-public function U2G($data)
+function U2G($data)
 {
     if(is_array($data) || is_object($data)) {
         foreach ($data as &$value) {
